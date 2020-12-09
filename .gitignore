@@ -8,3 +8,7 @@ share/
 # Distribution / packaging
 lib/
 
+# Django stuff
+*.log
+local_settings.py
+*.sqlite3
