@@ -1,2 +1,12 @@
-<h1>Home page : Hello World</h1>
-<p>This is a template</p>
+{% extends 'base.html' %}
+
+{% block content %}
+	<h1>Home page : Hello World</h1>
+	<p>This is a template</p>
+
+{% endblock %}
+
+
+{% block another_content %}
+	 Content continued
+{% endblock %}

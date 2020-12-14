@@ -10,3 +10,6 @@ def home_view(request, *args, **kwargs):
 
 def contact_view(*args, **kwargs):
 	return HttpResponse("<h1>Contacts page </h1>")
+
+def about_view(request, *args, **kwargs):
+	return render(request, "about.html",{})
